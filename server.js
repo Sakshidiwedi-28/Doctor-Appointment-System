@@ -75,7 +75,7 @@ const startServer = async () => {
                 .bgCyan.white
             );
             console.log(
-                `MongoDB Connected: ${process.env.MONGO_URL}`
+                `MongoDB Connected: ${process.env.MONGODB_URL}`
                 .bgGreen.white
             );
         });
