@@ -66,7 +66,7 @@ const Register = () => {
         </Form.Item>
 
         <div className="form-actions">
-          <Link to="./Login.js" className="m-2">
+          <Link to="./Login" className="m-2">
             Already a user? Login here
           </Link>
           <button className="btn btn-primary" htmlType="submit">

@@ -9,7 +9,7 @@ try {
     if(existingUser) {
         return res.status(200).send({message:'User already Exist', success:false});
     }
-    const password = req.bosy.password
+    const password = req.body.password
     const salt = await bcrypt.genSalt(10)
     const hashedPassword = await bcrypt.hash(password,salt)
     req.body.password = hashedPassword
@@ -65,5 +65,51 @@ const authController =  async(req,res) => {
  }
 };
 
-module.exports = {loginController, registerController, authController };
+// Placeholder for missing controllers
+const applyDoctorController = async (req, res) => {
+    // Implement logic here
+    res.status(200).send({ message: 'Apply Doctor Controller', success: true });
+};
 
+const getAllNotificationController = async (req, res) => {
+    // Implement logic here
+    res.status(200).send({ message: 'Get All Notifications Controller', success: true });
+};
+
+const deleteAllNotificationController = async (req, res) => {
+    // Implement logic here
+    res.status(200).send({ message: 'Delete All Notifications Controller', success: true });
+};
+
+const getAllDocotrsController = async (req, res) => {
+    // Implement logic here
+    res.status(200).send({ message: 'Get All Doctors Controller', success: true });
+};
+
+const bookeAppointmnetController = async (req, res) => {
+    // Implement logic here
+    res.status(200).send({ message: 'Book Appointment Controller', success: true });
+};
+
+const bookingAvailabilityController = async (req, res) => {
+    // Implement logic here
+    res.status(200).send({ message: 'Booking Availability Controller', success: true });
+};
+
+const userAppointmentsController = async (req, res) => {
+    // Implement logic here
+    res.status(200).send({ message: 'User Appointments Controller', success: true });
+};
+
+module.exports = {
+    loginController,
+    registerController,
+    authController,
+    applyDoctorController,
+    getAllNotificationController,
+    deleteAllNotificationController,
+    getAllDocotrsController,
+    bookeAppointmnetController,
+    bookingAvailabilityController,
+    userAppointmentsController
+};
