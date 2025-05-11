@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Add Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero text-white text-center py-5"
+        style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); position: relative; overflow: hidden;">
+        <div class="container position-relative">
+            <h1 class="display-3 fw-bold mb-3" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+                Hi, I'm <span style="color: #00d4ff;">Sakshi Diwedi</span>
+            </h1>
+            <p class="lead mb-4" style="font-size: 1.5rem; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">
+                A Passionate Software Developer Crafting Modern, Scalable, and User-Centric Applications.
+            </p>
+            <div class="basic-details">
+                <p class="mb-0">
+                    <i class="fas fa-map-marker-alt me-2"></i> Sonipat, Haryana
+                    <span class="mx-3">|</span>
+                    <i class="fas fa-envelope me-2"></i> saakshidiwedi28@gmail.com
+                </p>
+            </div>
+            <!-- Animated Background Shapes -->
+            <div class="animated-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5" style="background: linear-gradient(135deg, #f9f9f9, #e3f2fd);">
+        <div class="container-fluid">
+            <h2 class="text-center text-dark mb-4">About Me</h2>
+            <div class="row justify-content-center align-items-center">
+                <!-- Image Section -->
+                <div class="col-md-4 text-center">
+                    <div class="profile-image-container">
+                        <img src="C:\Users\saaks\OneDrive\Desktop\web-image.jpeg" alt="sakshi" alt="Sakshi Diwedi"
+                            class="img-fluid square-shape shadow-lg">
+                    </div>
+                </div>
+                <!-- Text Section -->
+                <div class="col-md-6">
+                    <div class="about-text bg-white p-4 rounded shadow">
+                        <p class="text-dark">
+                            Hi, I’m <strong>Sakshi Diwedi</strong>, an aspiring <strong>Software Developer</strong>
+                            passionate about creating impactful digital solutions.
+                            I specialize in <strong>frontend and backend development</strong>, with hands-on experience
+                            in the <strong>MERN stack</strong>, <strong>Django</strong>, and <strong>AI-integrated
+                                projects</strong>.
+                        </p>
+                        <p class="text-dark">
+                            I’m currently pursuing a <strong>BCA</strong> degree and have worked on several full-stack
+                            projects, including <strong>web applications</strong>, <strong>chatbots</strong>, and
+                            <strong>task management systems</strong>. My goal is to build scalable, user-centric
+                            applications that solve real-world problems.
+                        </p>
+                        <a href="#projects" class="btn btn-gradient mt-3">View My Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container-fluid bg-dark text-white py-5">
+        <h2 class="text-center mb-4">Projects</h2>
+        <div class="row justify-content-center">
+            <!-- Project 1 -->
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card mb-3 shadow-sm h-100 bg-secondary text-white">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-user-md me-2"></i>Doctor Appointment System</h5>
+                        <p class="card-text">
+                            A full-stack MERN application for booking medical appointments.
+                        <ul>
+                            <li>Role-based access for patients, doctors, and admins</li>
+                            <li>Appointment scheduling, rescheduling, notifications</li>
+                            <li>Technologies: ReactJS, NodeJS, MongoDB, ExpressJS</li>
+                        </ul>
+                        </p>
+                        <a href="https://github.com/Sakshidiwedi-28/MedCare_System" class="btn btn-outline-light">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card mb-3 shadow-sm h-100 bg-secondary text-white">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-robot me-2"></i>Chatbot PDF Reader</h5>
+                        <p class="card-text">
+                            A Python-based chatbot that extracts and responds to questions using PDF data.
+                        <ul>
+                            <li>Integrated with Gemini API, Groq, and RAG architecture</li>
+                            <li>Built with Streamlit for an interactive UI</li>
+                        </ul>
+                        </p>
+                        <a href="https://github.com/Sakshidiwedi-28/" class="btn btn-outline-light">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card mb-3 shadow-sm h-100 bg-secondary text-white">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-tasks me-2"></i>Task Scheduling App</h5>
+                        <p class="card-text">
+                            A React + Redux app to manage daily tasks efficiently.
+                        <ul>
+                            <li>Task creation, editing, and prioritization</li>
+                            <li>Integrated with Firebase for real-time updates</li>
+                            <li>Technologies: ReactJS, Redux, Firebase</li>
+                        </ul>
+                        </p>
+                        <a href="https://github.com/Sakshidiwedi-28/" class="btn btn-outline-light">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-5" style="background: linear-gradient(135deg, #e3f2fd, #ffffff);">
+        <div class="container">
+            <h2 class="text-center text-dark mb-4">Certifications</h2>
+            <div class="row justify-content-center">
+                <!-- Certification 1 -->
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-3 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-certificate me-2 text-primary"></i>Multinational
+                                Conference 2023</h5>
+                            <p class="card-text">
+                                writing the research paper on cloud computing and its shaping concepts in
+                                multidisciplinary National conference dec 1 and dec 2, 2023
+                            </p>
+                            <a href="https://media.licdn.com/dms/document/media/v2/D562DAQF_Is1ExZ-h6w/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1729709122390?e=1747872000&v=beta&t=whC05hQiXczjpa2xmjqBR0eYTzKm6PcuGn1pCOKNgyg"
+                                target="_blank" class="btn btn-outline-primary">
+                                <i class="fas fa-external-link-alt"></i> View Certification
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-3 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-certificate me-2 text-success"></i>Python for Data
+                                Science</h5>
+                            <p class="card-text">
+                                Gained expertise in Python programming and data analysis techniques, including Pandas
+                                and NumPy.
+                            </p>
+                            <a href="C:\Users\saaks\Downloads\WhatsApp Image 2025-05-11 at 02.26.27.jpeg"
+                                target="_blank" class="btn btn-outline-success">
+                                <i class="fas fa-external-link-alt"></i> View Certification
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-3 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-certificate me-2 text-warning"></i>React.Js
+                                Essential Training</h5>
+                            <p class="card-text">
+                                Completed a course on React.js, focusing on building dynamic and responsive web
+                                applications.
+                            </p>
+                            <a href="https://www.linkedin.com/learning/certificates/8379c4f9d4bc17d71ec54efe4b0211033491eacaa3d77d0136d2da77d61e5e33"
+                                target="_blank" class="btn btn-outline-warning">
+                                <i class="fas fa-external-link-alt"></i> View Certification
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-dark mb-4">Experience</h2>
+            <ul class="list-group shadow">
+                <li class="list-group-item">
+                    <strong> Intern</strong> at Qextek IT Solutions (2021 - 2022)
+                    <p>Worked on Cloud related solution and managing emails and dashboards</p>
+                </li>
+                <li class="list-group-item">
+                    <strong>Participated in SWOC Hackthon</strong>
+                    <p>Contributed to some projects</p>
+                </li>
+                <li class="list-group-item">
+                    <strong>Freelance Developer</strong>
+                    <p>Developed custom websites and applications for small businesses.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container text-center my-5">
+        <h2>Connect with Me</h2>
+        <p class="mb-4">Feel free to reach out to me for collaborations or job opportunities!</p>
+        <a href="mailto:saakshidiwedi28@gmail.com" class="btn btn-gradient btn-lg mb-4" id="contactButton">Click to
+            Contact</a>
+        <div class="social-icons mt-4">
+            <a href="https://www.linkedin.com/in/sakshi-diwedi-133763211/" target="_blank"
+                class="text-decoration-none me-3">
+                <i class="fab fa-linkedin fa-2x text-primary"></i>
+            </a>
+            <a href="https://github.com/Sakshidiwedi-28" target="_blank" class="text-decoration-none me-3">
+                <i class="fab fa-github fa-2x text-dark"></i>
+            </a>
+            <a href="https://discord.com/users/sakshi_diwedi" target="_blank" class="text-decoration-none me-3">
+                <i class="fab fa-discord fa-2x text-secondary"></i>
+            </a>
+            <a href="https://twitter.com/sakshidiwedi" target="_blank" class="text-decoration-none me-3">
+                <i class="fab fa-x-twitter fa-2x text-info"></i>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>

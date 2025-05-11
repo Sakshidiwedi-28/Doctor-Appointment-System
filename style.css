@@ -1,0 +1,211 @@
+/* Hero Section Gradient */
+.hero {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Blue gradient */
+    color: white;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Hero Section Text */
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  /* About Me Section */
+/* Full-Width About Me Section */
+#about {
+    background: linear-gradient(135deg, #f9f9f9, #e3f2fd); /* Light pastel gradient */
+    padding: 60px 0;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .square-shape {
+    width: 250px; /* Fixed width */
+    height: 250px; /* Fixed height to make it a square */
+    object-fit: cover; /* Ensures the image fits perfectly inside the square */
+    border: 5px solid #ffffff; /* White border for a clean look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .square-shape:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+  }
+  
+  .about-text {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333333;
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(90deg, #42a5f5, #478ed1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    background: linear-gradient(90deg, #478ed1, #42a5f5);
+    transform: scale(1.1);
+  }
+  /* Gradient Button */
+  .btn-gradient {
+    background: linear-gradient(90deg, #00d4ff, #0077b5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    background: linear-gradient(90deg, #0077b5, #00d4ff);
+    transform: scale(1.1);
+  }
+  
+  /* Social Media Icons */
+  .social-icons a {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #ffffff !important;
+  }
+  
+  /* Animated Background Shapes */
+  .animated-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  .shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.2;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .shape-1 {
+    width: 200px;
+    height: 200px;
+    background: #00d4ff;
+    top: 10%;
+    left: 15%;
+  }
+  
+  .shape-2 {
+    width: 300px;
+    height: 300px;
+    background: #0077b5;
+    bottom: 20%;
+    right: 10%;
+  }
+  
+  .shape-3 {
+    width: 150px;
+    height: 150px;
+    background: #ffffff;
+    top: 50%;
+    left: 50%;
+  }
+ /* Projects Section */
+#projects {
+    padding: 60px 0;
+  }
+  
+  #projects h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Card Styling */
+  .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-body ul {
+    padding-left: 20px;
+  }
+  
+  .card-body ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Button Styling */
+  .btn-outline-light {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background: #ffffff;
+    color: #333333;
+  }
+  /* Click to Contact Button Styling */
+header .btn-primary {
+    background: linear-gradient(90deg, #42a5f5, #478ed1); /* Gradient background */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  header .btn-primary:hover {
+    background: linear-gradient(90deg, #478ed1, #42a5f5); /* Reverse gradient on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  /* Floating Animation */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
